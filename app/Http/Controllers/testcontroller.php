@@ -7,7 +7,6 @@ class testcontroller extends Controller
 {
    public function text()
    {
-       $a = 1;
-    dd($a);
+    printf("1111");
    }
 }
