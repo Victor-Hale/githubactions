@@ -23,7 +23,7 @@ jobs:
           FOLDER: ./
           SERVER_IP: ${{ secrets.SERVER_HOST }}
           USERNAME: ${{ secrets.SERVER_USERNAME }}
-          SERVER_DESTINATION: /tmp/laravel-test
+          SERVER_DESTINATION: /www/wwwroot/actions.wzhyuming.top
       # 第三步，登录服务器，执行安装依赖等操作   
       - name: Execute Script
         uses: appleboy/ssh-action@master
