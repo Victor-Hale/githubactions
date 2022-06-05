@@ -3,7 +3,7 @@ name: test
 # 触发条件
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 # 任务    
 jobs:
   deploy:
