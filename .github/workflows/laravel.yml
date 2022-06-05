@@ -16,10 +16,10 @@ jobs:
         php-versions: [ '7.3' ]
         dependency-stability: [ 'prefer-stable' ]
 
-        laravel: [ '8.75*' ]
+        laravel: [ '8.*' ]
         include:
-          - laravel:  8.75*
-            testbench: 4.*
+          - laravel:  8.*
+            testbench: 6.*
 
     name: P${{ matrix.php-versions }} - L${{ matrix.laravel }} - ${{ matrix.dependency-stability }} - ${{ matrix.operating-system}}
 
