@@ -7,7 +7,6 @@ on:
 # 任务    
 jobs:
   deploy:
-  	# 使用ubuntu系统镜像运行自动化脚本
     runs-on: ubuntu-latest
     # 自动化步骤
     steps:
